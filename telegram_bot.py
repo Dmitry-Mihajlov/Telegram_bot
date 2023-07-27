@@ -4,7 +4,7 @@ from telegram_bot_open import OPEN_NAMES_TASKS, OPEN_CATALOG, OPEN_ANSWER, OPEN_
 from telegram_bot_text import TEXT_START, TEXT_HELP, TEXT_INFO, PROFILE
 from telegram_bot_kb_names_tasks import KEYBOARD_NAMES_TASKS
 from telegram_bot_kb_guide import KEYBOARD_GUIDE_LINE, KEYBOARD_GUIDE_SQUARE
-bot = telebot.TeleBot('5588654975:AAF-vqi_kxwXn49ofthkQcPAw4xfqlP-84s')
+bot = telebot.TeleBot(token)
 user_response = None
 user_guide = None
 total_try = 0
